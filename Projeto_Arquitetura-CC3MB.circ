@@ -1670,15 +1670,24 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(650,380)" to="(720,380)"/>
-    <wire from="(630,420)" to="(630,460)"/>
+    <wire from="(570,380)" to="(570,420)"/>
+    <wire from="(480,380)" to="(570,380)"/>
     <wire from="(590,370)" to="(590,380)"/>
-    <wire from="(480,380)" to="(590,380)"/>
+    <wire from="(570,380)" to="(590,380)"/>
     <wire from="(590,370)" to="(610,370)"/>
-    <wire from="(670,280)" to="(670,330)"/>
-    <wire from="(580,280)" to="(580,330)"/>
     <wire from="(660,360)" to="(720,360)"/>
     <wire from="(480,360)" to="(600,360)"/>
+    <wire from="(650,380)" to="(720,380)"/>
+    <wire from="(540,300)" to="(580,300)"/>
+    <wire from="(630,440)" to="(670,440)"/>
+    <wire from="(670,300)" to="(710,300)"/>
+    <wire from="(670,300)" to="(670,330)"/>
+    <wire from="(580,300)" to="(580,330)"/>
+    <wire from="(580,280)" to="(580,300)"/>
+    <wire from="(630,420)" to="(630,440)"/>
+    <wire from="(630,440)" to="(630,460)"/>
+    <wire from="(670,280)" to="(670,300)"/>
+    <wire from="(560,420)" to="(570,420)"/>
     <comp lib="0" loc="(720,380)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -1690,6 +1699,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="output" val="true"/>
       <a name="width" val="4"/>
       <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(670,440)" name="Probe">
+      <a name="facing" val="west"/>
+      <a name="radix" val="10signed"/>
     </comp>
     <comp lib="0" loc="(670,280)" name="Pin">
       <a name="facing" val="south"/>
@@ -1707,16 +1720,26 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp loc="(620,360)" name="main"/>
+    <comp lib="0" loc="(560,420)" name="Probe">
+      <a name="radix" val="10signed"/>
+    </comp>
     <comp lib="0" loc="(480,380)" name="Pin">
       <a name="width" val="3"/>
       <a name="tristate" val="false"/>
       <a name="label" val="Oper"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+    <comp lib="0" loc="(540,300)" name="Probe">
+      <a name="radix" val="10signed"/>
+    </comp>
     <comp lib="0" loc="(480,360)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="D"/>
       <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(710,300)" name="Probe">
+      <a name="facing" val="west"/>
+      <a name="radix" val="10signed"/>
     </comp>
     <comp lib="0" loc="(580,280)" name="Pin">
       <a name="facing" val="south"/>
